@@ -6,3 +6,8 @@ def hello():
 my_stuff = hello()
 print('Stuff return from hello():', my_stuff)
 print('The object my_stuff is a type:', type(my_stuff))
+
+def return_text_value():
+    name = 'Terry'
+    greeting = 'Good Morning ' + name
+    return greeting 
